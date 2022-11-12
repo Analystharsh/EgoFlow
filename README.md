@@ -1,7 +1,7 @@
 # EgoFlow: detect if a person is looking at me with RGB and corresponding optical-flow sequences.
 
 ### Introduction
-This is a method proposed for [2022 Ego4D Looking-at-Me Challenge](https://eval.ai/web/challenges/challenge-page/1624/overview), exploiting [Ego4D dataset](https://ego4d-data.org/docs/challenge/#dataset) and an optical flow dataset, this dataset is created with the RGB images in Ego4D by a neural network called [FlowFormer](https://github.com/drinkingcoder/FlowFormer-Official).
+This is a method proposed for [2022 Ego4D Looking-at-Me Challenge](https://eval.ai/web/challenges/challenge-page/1624/overview), utilizing [Ego4D dataset](https://ego4d-data.org/docs/challenge/#dataset) and an optical flow dataset, this dataset is created with the RGB images in Ego4D by a neural network called [FlowFormer](https://github.com/drinkingcoder/FlowFormer-Official).
 
 ### Installation
 ```
