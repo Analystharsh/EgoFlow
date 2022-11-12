@@ -22,8 +22,10 @@ and put [sintel.pth](https://drive.google.com/drive/folders/1K2dcWxaqOLiQ3PoqRdo
 
 2. A pre-trained EgoFlow [model](https://drive.google.com/file/d/1YT8yd_fsC0cBTxDX8cYw5docpWrZxRM1/view?usp=share_link) for testing
 
-### Create Optical Flow Dataset
-Run all "\*_odd.py" and "\*_even.py" files to generate the optical flows. Please check the roots of datasets in these python files.
+### Dataset
+1. Download [Ego4D dataset](https://ego4d-data.org/docs/).
+
+2. Run all "\*_odd.py" and "\*_even.py" files to generate the optical flows. Please check the roots of datasets in these python files.
 
 ### Train
 ```
