@@ -31,5 +31,5 @@ python run.py --model GazeLSTM --exp_path output_train --num_workers 16 --batch_
 
 ### Test
 ```
-python run.py --eval --checkpoint checkpoint/demo.pth --model GazeLSTM --exp_path output_test --num_workers 18 --batch_size 128
+python run.py --eval --checkpoint output_train/checkpoint/best.pth --model GazeLSTM --exp_path output_test --num_workers 16 --batch_size 128
 ```
