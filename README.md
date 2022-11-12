@@ -19,6 +19,7 @@ Create a folder
 mkdir checkpoints
 ```
 and put [sintel.pth](https://drive.google.com/drive/folders/1K2dcWxaqOLiQ3PoqRdokrgWsGIf3yBA_) in this folder.
+
 2. A pre-trained EgoFlow [model](https://drive.google.com/file/d/1YT8yd_fsC0cBTxDX8cYw5docpWrZxRM1/view?usp=share_link) for testing
 
 ### Create Optical Flow Dataset
