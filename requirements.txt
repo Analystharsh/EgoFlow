@@ -64,8 +64,6 @@ smmap==5.0.0
 stack-data==0.5.0
 threadpoolctl==3.1.0
 timm==0.4.12
-torch @ file:///mnt/ssd1/hu/torch-1.7.1%2Bcu110-cp38-cp38-linux_x86_64.whl
-torchvision @ file:///mnt/ssd1/hu/torchvision-0.8.2%2Bcu110-cp38-cp38-linux_x86_64.whl
 tqdm==4.64.0
 traitlets==5.3.0
 typing_extensions==4.3.0
