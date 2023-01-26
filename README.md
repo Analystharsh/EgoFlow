@@ -20,7 +20,7 @@ mkdir checkpoints
 ```
 and put [sintel.pth](https://drive.google.com/drive/folders/1K2dcWxaqOLiQ3PoqRdokrgWsGIf3yBA_) in it.
 
-2. A pre-trained EgoFlow [model](https://drive.google.com/file/d/1YT8yd_fsC0cBTxDX8cYw5docpWrZxRM1/view?usp=share_link) for testing
+2. A pre-trained EgoFlow [model](https://drive.google.com/file/d/1SdGQZddJ34A7Cd39wk6GX50QVWg_V19p/view?usp=share_link) for testing
 
 ### Dataset
 1. Download [Ego4D dataset](https://ego4d-data.org/docs/) following the official guidance.
@@ -34,5 +34,5 @@ python run.py --model GazeLSTM --exp_path output_train --num_workers 16 --batch_
 
 ### Test
 ```
-python run.py --eval --checkpoint output_train/checkpoint/best.pth --model GazeLSTM --exp_path output_test --num_workers 16 --batch_size 128
+python run.py --eval --checkpoint checkpoint_EgoFlow.pth --model GazeLSTM --exp_path output_test --num_workers 16 --batch_size 128
 ```
